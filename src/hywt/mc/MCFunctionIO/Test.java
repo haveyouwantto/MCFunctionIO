@@ -1,4 +1,4 @@
-package hywt.mc.FunctionIO;
+package hywt.mc.MCFunctionIO;
 
 import java.io.File;
 import java.io.IOException;
