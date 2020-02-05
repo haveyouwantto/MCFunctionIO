@@ -15,7 +15,7 @@ public class MCFunction {
 		this.commands = new ArrayList<String>();
 	}
 
-	public MCFunction(ArrayList<String> commands) {
+	public MCFunction(List<String> commands) {
 		this.commands = commands;
 	}
 
@@ -25,6 +25,10 @@ public class MCFunction {
 
 	public void add(String command) {
 		commands.add(command);
+	}
+	
+	public void add(List<String> list) {
+		commands.addAll(list);
 	}
 
 	public void append(MCFunction mcf) {
